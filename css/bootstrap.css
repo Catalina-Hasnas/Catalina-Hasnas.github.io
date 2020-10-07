@@ -5923,6 +5923,18 @@ a.close.disabled {
   outline: 0;
 }
 
+@media only screen and (max-width: 800px) {
+  .modal {
+    top: 10%
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .modal {
+    top: 20%
+  }
+}
+
 .modal-dialog {
   position: relative;
   width: auto;
